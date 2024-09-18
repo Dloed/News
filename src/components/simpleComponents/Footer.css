@@ -1,0 +1,95 @@
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap);
+}
+
+.footer {
+  grid-column: 1 / -1;
+  grid-row: 3;
+  display: flex;
+  justify-content: flex-start;
+  bottom: 0;
+
+  background-color: rgb(6, 6, 6);
+  min-height: 200px;
+  height: 15vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-left: 3%;
+  border-radius: 10px;
+}
+.footer-content {
+  color: aliceblue;
+  font-size: 15px;
+}
+
+.Back {
+  width: 20%;
+  height: 20%;
+  margin-right: 10px;
+  font-size: 100%;
+  background-color: inherit;
+
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 20px;
+}
+
+.Back:hover {
+  background-color: rgb(35, 34, 34);
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.Back:active {
+  transform: scale(0.9);
+}
+
+@media (max-width: 768px) {
+  .footer {
+    grid-column: 1 / -1;
+    grid-row: 3;
+    display: flex;
+    justify-content: flex-start;
+    bottom: 0;
+
+    background-color: rgb(6, 6, 6);
+    min-height: 200px;
+    height: 15vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 3%;
+    border-radius: 10px;
+  }
+  .footer-content {
+    color: aliceblue;
+    font-size: 12px;
+  }
+
+  .Back {
+    margin-bottom: 15%;
+    width: 20%;
+    height: 20%;
+    margin-right: 10px;
+    font-size: 100%;
+    background-color: inherit;
+
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 20px;
+  }
+
+  .Back:hover {
+    background-color: rgb(35, 34, 34);
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+
+  .Back:active {
+    transform: scale(0.9);
+  }
+}

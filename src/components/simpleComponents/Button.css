@@ -1,0 +1,21 @@
+.Btn {
+  width: 50%;
+  height: 20%;
+  margin-right: 10px;
+  font-size: 100%;
+
+  background-color: inherit;
+  color: rgb(255, 255, 255);
+  border: 2px solid bold;
+  border-radius: 20px;
+}
+
+.Btn:hover {
+  background-color: rgb(35, 34, 34);
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.Btn:active {
+  transform: scale(0.9);
+}

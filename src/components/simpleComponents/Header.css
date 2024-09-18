@@ -1,0 +1,157 @@
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap);
+}
+
+.navBar {
+  grid-column: 1 / 13;
+  grid-row: 1;
+  display: flex;
+  align-items: center;
+  background-color: rgb(6, 6, 6);
+  min-height: 50px;
+  height: 8vh;
+  border-radius: 20px;
+  padding-left: 2%;
+  position: relative;
+}
+
+.navBtn,
+.logoBtn {
+  height: 40%;
+  font-family: "Roboto", sans-serif;
+  background-color: inherit;
+  color: aliceblue;
+  border: none;
+  border-radius: 20px;
+  margin-right: 20px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.logoBtn {
+  font-size: 17px;
+  margin-right: 15%;
+}
+
+.navBtn:hover,
+.logoBtn:hover,
+.menuToggleBtn:hover {
+  background-color: rgb(35, 34, 34);
+  transform: scale(1.1);
+}
+
+.navBtn:active,
+.logoBtn:active {
+  transform: scale(0.9);
+}
+
+.mobileMenu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: rgb(6, 6, 6);
+  width: 100%;
+  z-index: 10;
+  border-radius: 0 0 20px 20px;
+}
+
+.mobileMenu.open {
+  display: block;
+}
+
+
+.menuToggleBtn {
+  display: none; 
+  height: 40%;
+  width: 10%;
+border-radius: 20px;
+  font-size: 17px;
+  background-color: rgb(0, 0, 0);
+  color: aliceblue;
+  border: none;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.desktopMenu {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.desktopMenu .navBtn {
+  display: flex;
+  width: 10%;
+  margin-right: 10%;
+}
+
+@media (max-width: 1100px) {
+  .navBar {
+    padding-left: 1%; 
+  }
+
+  .desktopMenu {
+    display: none; 
+  }
+
+  .menuToggleBtn {
+    display: flex; 
+    margin-left: auto; 
+  }
+
+  .mobileMenu {
+    
+    height: 60%; 
+    border-radius: 0;
+    padding-left: 20%;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .navBar {
+    padding-left: 1%; 
+  }
+
+  .logoBtn {
+    margin-right: 20px; 
+    font-size: 13px; 
+  }
+
+  .menuToggleBtn {
+    margin-right: 6%; 
+
+}
+
+.mobileMenu.open {
+  display: flex;
+  flex-direction: column;
+  
+    
+  height: 250%; 
+  border-radius: 0;
+  padding-left: 5%;
+}
+.navBtn
+ {
+  height: 40%;
+  font-family: "Roboto", sans-serif;
+  background-color: inherit;
+  color: aliceblue;
+  border: none;
+  border-radius: 20px;
+  margin-right: 20px;
+  margin-bottom: 3%;
+  font-size: 80%;
+  cursor: pointer;
+}
+
+
+}

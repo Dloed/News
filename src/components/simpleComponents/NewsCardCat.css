@@ -1,0 +1,137 @@
+.cardCat {
+  grid-row: 2;
+  display: flex;
+  justify-content: flex-start;
+  overflow: hidden;
+  background-color: rgb(23, 22, 22);
+  width: 100%;
+  height: 350px;
+  margin-left: 2%;
+  margin-bottom: 5%;
+  border-radius: 50px;
+}
+.sourceCardCat {
+  color: aliceblue;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding-bottom: 2%;
+}
+.cardCatText {
+  width: 100%;
+  padding-top: 10%;
+  color: aliceblue;
+  font-size: 20px;
+  padding-bottom: 1%;
+}
+.titleCat {
+  display: flex;
+  flex-direction: column;
+  padding-left: 40px;
+  padding-top: 1%;
+  width: 1200px;
+  height: 300px;
+  font-size: 20px;
+  font-weight: 100;
+  color: aliceblue;
+  border-radius: 20px;
+  word-break: break-word;
+}
+.textCat {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  word-break: break-word;
+}
+.containerEconomy {
+  grid-column: 1/12;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-top: 2%;
+}
+.imgCardCat {
+  width: 300px;
+  height: 300px;
+}
+.titleCardCat {
+  width: 50%;
+}
+.sourceCardCat {
+  width: 100px;
+  padding-bottom: 10%;
+}
+
+/* Адаптивность для экранов с максимальной шириной 1000 пикселей */
+@media (max-width: 1000px) {
+  .cardCat {
+    height: 300px;
+    margin-left: 1%;
+    margin-bottom: 4%;
+    border-radius: 40px;
+  }
+
+  .titleCat {
+    width: 1000px;
+    height: 250px;
+    font-size: 18px;
+  }
+
+  .imgCardCat {
+    width: 250px;
+    height: 250px;
+  }
+
+  .cardCatText {
+    font-size: 18px;
+    padding-top: 8%;
+  }
+
+  .titleCardCat {
+    width: 60%;
+  }
+
+  .sourceCardCat {
+    width: 80px;
+  }
+}
+
+/* Адаптивность для экранов с максимальной шириной 750 пикселей */
+@media (max-width: 750px) {
+  .cardCat {
+    flex-direction: column;
+    height: auto;
+    margin-left: 0;
+    margin-bottom: 3%;
+    border-radius: 30px;
+  }
+
+  .titleCat {
+    width: 100%;
+    padding-left: 20px;
+    height: auto;
+    font-size: 16px;
+  }
+
+  .imgCardCat {
+    width: 200px;
+    height: 200px;
+  }
+
+  .cardCatText {
+    font-size: 16px;
+    padding-top: 5%;
+    padding-left: 3%;
+  }
+
+  .titleCardCat {
+    width: 100%;
+  }
+
+  .sourceCardCat {
+    width: 60px;
+    padding-left: 3%;
+  }
+
+  .containerEconomy {
+    padding-top: 1%;
+  }
+}
