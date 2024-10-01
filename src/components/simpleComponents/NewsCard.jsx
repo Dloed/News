@@ -1,7 +1,12 @@
 import "./NewsCard.css";
 
-
 const truncateText = (text, maxLength) => {
+  
+  if (!text) {
+    return '';  
+  }
+
+  
   if (text.length <= maxLength) {
     return text;
   }
@@ -24,7 +29,7 @@ const NewsCard = ({ className, title, imgUrl, text, source, sourceText }) => {
       <img
         className="img"
         src={imgUrl}
-        alt={`Изображение для новости: ${title}`}
+        
       ></img>
 
       <div className="text">{truncateText(text, 160)}</div>
