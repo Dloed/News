@@ -1,5 +1,6 @@
 Getting Started with Create React App
 
 Link to view the educational project https://inquisitive-dodol-338947.netlify.app
-![IMAGE 2024-10-01 16:16:21](https://github.com/user-attachments/assets/aaa7a4bc-e667-41d9-a7a1-d98892aa82b6)
-![IMAGE 2024-10-01 16:16:22](https://github.com/user-attachments/assets/30c42b5d-f7fa-4450-8d36-214d015bb52d)
+
+<img width="1262" alt="Снимок экрана 2024-10-01 в 16 10 33 (1)" src="https://github.com/user-attachments/assets/5de6a36d-363f-4dd8-869d-5ccffc438201">
+![Снимок экрана 2024-10-01 в 16 20 49 (1)](https://github.com/user-attachments/assets/95e0f4ca-e7db-4fc6-bd85-df48d0c5024d)
