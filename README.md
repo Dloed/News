@@ -1,4 +1,4 @@
-Getting Started with Create React App
+
 
 
 I use a free API with a limited number of requests, so the data may not load
